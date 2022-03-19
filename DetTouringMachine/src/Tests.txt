@@ -1,0 +1,69 @@
+dtm> p
+
+dtm> i src/abc.txt
+dtm> c abccba
+accept
+dtm> c a
+accept
+dtm> c b
+accept
+dtm> c c
+accept
+dtm> chsdlfk a
+accept
+dtm> cxokjndviokdfng b
+accept
+dtm> CCC g
+reject
+dtm> CC b
+accept
+dtm> rofikgjhdo abca
+acba
+dtm> ?
+Error! Unknown command.
+dtm> c ?
+reject
+dtm> 
+dtm> i src/anbn.txt
+dtm> c ab
+accept
+dtm> ca
+accept
+dtm> c a
+reject
+dtm> c abbb
+reject
+dtm> c aabbaabb
+reject
+dtm> c aaaabbbb
+accept
+dtm> run aabbbbb
+xx
+dtm> r a
+
+dtm> r b
+
+dtm> r ab
+x
+dtm> i src/abc.txt
+dtm> c ab
+accept
+dtm> c abab
+accept
+dtm> r abab
+baba
+dtm> c abcd
+reject
+dtm> c dikghrf
+reject
+dtm> c 
+accept
+dtm> c
+accept
+dtm> run abcbaccbcba
+abcbccabcba
+dtm> r baag
+
+dtm> q
+
+Process finished with exit code 0
